@@ -1,0 +1,27 @@
+{
+  "version": "2.0.6",
+  "summary": {
+    "title": "Modelo para TP1",
+    "owner": "Grupo 1",
+    "description": "Campus",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.6",
+        "cells": [],
+        "description": "dinamic flow diagram"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Grupo 1",
+    "threatTop": 0
+  }
+}
