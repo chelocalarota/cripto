@@ -16,7 +16,331 @@
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.0.6",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 764.9999999999995,
+              "y": 50.00000000000085
+            },
+            "size": {
+              "width": 250,
+              "height": 240
+            },
+            "shape": "trust-boundary-box",
+            "id": "fa4ab334-2aff-47a7-976f-81b6de3e0030",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Límite de confianza",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 765,
+              "y": 302.000000000001
+            },
+            "size": {
+              "width": 250,
+              "height": 140
+            },
+            "shape": "trust-boundary-box",
+            "id": "3111f471-6c9e-44e6-ae54-17cc6ce83dc6",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Límite de confianza",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "zIndex": -1
+          },
+          {
+            "position": {
+              "x": 830,
+              "y": 200
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "S3"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "37b68fc6-d78b-4335-8595-4cdc9b407350",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Store",
+              "name": "S3",
+              "description": "Almacenamiento de archivos",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 830,
+              "y": 102
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "MySQL Primario"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "f099a480-ef99-40aa-8c11-3f16b08aa329",
+            "data": {
+              "type": "tm.Store",
+              "name": "MySQL Primario",
+              "description": "Base de datos relacional primaria",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "zIndex": 2
+          },
+          {
+            "position": {
+              "x": 830.0000000000005,
+              "y": 354
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "MySQL Secundario"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "1bf8009b-590f-431e-aa13-776726422410",
+            "data": {
+              "type": "tm.Store",
+              "name": "MySQL Secundario",
+              "description": "Base de datos relacional secundaria",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "zIndex": 4
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "strokeDasharray": "7 5",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "10f4ab81-6bb6-4767-8f9f-8b2f116d2cf4",
+            "source": {
+              "x": 890,
+              "y": -10
+            },
+            "target": {
+              "x": 910,
+              "y": 540
+            },
+            "vertices": [
+              {
+                "x": 690,
+                "y": 110
+              },
+              {
+                "x": 720,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "3cc2b307-ddd3-4e51-843f-7f12321c892e",
+            "source": {
+              "cell": "a085545e-cf7a-4870-8fc9-db02b7aa9df6"
+            },
+            "target": {
+              "x": 760,
+              "y": 120
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "17156847-2267-4548-9857-35e2c20ee1ff",
+            "source": {
+              "cell": "a085545e-cf7a-4870-8fc9-db02b7aa9df6"
+            },
+            "target": {
+              "x": 760,
+              "y": 370
+            }
+          },
+          {
+            "position": {
+              "x": 543,
+              "y": 155
+            },
+            "size": {
+              "width": 110,
+              "height": 150
+            },
+            "attrs": {
+              "text": {
+                "text": "Orquestador"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "a085545e-cf7a-4870-8fc9-db02b7aa9df6",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Orquestador",
+              "description": "Dedide a que base de datos se consulta",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          }
+        ],
         "description": "dinamic flow diagram"
       }
     ],
