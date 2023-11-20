@@ -1,0 +1,27 @@
+{
+  "version": "2.1.1",
+  "summary": {
+    "title": "Dossier Stuxnet",
+    "owner": "",
+    "description": "Modelado de amenazas para texto de Stuxnet",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Grafico del problema",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.1.1",
+        "cells": [],
+        "description": ""
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
